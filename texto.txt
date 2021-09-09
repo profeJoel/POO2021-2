@@ -3,3 +3,5 @@ Este es un texto de prueba...
 Las clases del día jueves comienzan a las 9:00AM!!!!
 
 Estamos en la rama dev
+
+Estamos en Linux a través de una colaboración con joelsebastiantc para esta demostración.
