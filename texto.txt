@@ -5,3 +5,5 @@ Las clases del día jueves comienzan a las 9:00AM!!!!
 Estamos en la rama dev
 
 Estamos en Linux a través de una colaboración con joelsebastiantc para esta demostración.
+
+Esta es otra version en Linux, para la demostración, ahora si que si...
