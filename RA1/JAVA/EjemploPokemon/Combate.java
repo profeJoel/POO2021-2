@@ -22,7 +22,7 @@ public class Combate {
     public void iniciarCombate(){
         //Recorrer uno a uno los pokemon de cada entrenador y verificar cual de ellos tiene mayor pc
         for(int i = 0; i<3; i++)
-            if(e1.getPokemon(i).getPc() >= e2.getPokemon(i).getPc())
+            if(this.e1.getPokemon(i).getPc() >= this.e2.getPokemon(i).getPc())
                 this.puntos_e1++;
             else
                 this.puntos_e2++;
@@ -31,12 +31,12 @@ public class Combate {
         if(this.puntos_e1 >= 2)
         {
             System.out.println("El ganador es: " + e1.getNombre());
-            e1.ganaMedalla(this.nombreMedalla);
+            this.e1.ganaMedalla(this.nombreMedalla);
         }
         else
         {
             System.out.println("El ganador es: " + e2.getNombre());
-            e2.ganaMedalla(this.nombreMedalla);
+            this.e2.ganaMedalla(this.nombreMedalla);
         }
 
     }
